@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>com.Google-plugin-gradle</id>
+    <name>Google</name>
+    <vendor email="your@gmail.com" url="https:your.com">Vendor</vendor>
+    <description><![CDATA[
+    Ask Question or search on Stack Overflow
+    ]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+    <actions>
+        <action
+                id="Google.Search.Editor"
+                class="com.example.demonew.SearchAction"
+                text="Search on Google"
+                description="Search on Google">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+        <action
+                id="Google.Search.Console"
+                class="com.example.demonew.SearchAction"
+                text="Search on Google"
+                description="Search on Google">
+            <add-to-group group-id="ConsoleEditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
