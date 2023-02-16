@@ -10,19 +10,31 @@
         <!-- Add your extensions here -->
     </extensions>
     <actions>
+
+            <!--<group id="SimpleGroupMenu" text="Custom Action Group" popup="true">
+                <add-to-group group-id="ToolsMenu"
+                              anchor="after"/>
+                    <action class="com.example.demonew.SearchAction" id="Google.Search.ToolsMenu"
+                        text="Grouped Action" description="Grouped Action Demo">
+                    </action>
+            </group>-->
+
+
         <action
                 id="Google.Search.Editor"
                 class="com.example.demonew.SearchAction"
                 text="Search on Google"
                 description="Search on Google">
-            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <!--<add-to-group group-id="EditorPopupMenu" anchor="last"/>-->
+            <add-to-group group-id="HelpMenu" anchor="last"/>
         </action>
-        <action
+        <!--<action
                 id="Google.Search.Console"
                 class="com.example.demonew.SearchAction"
                 text="Search on Google"
                 description="Search on Google">
-            <add-to-group group-id="ConsoleEditorPopupMenu" anchor="last"/>
-        </action>
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>-->
+
     </actions>
 </idea-plugin>
