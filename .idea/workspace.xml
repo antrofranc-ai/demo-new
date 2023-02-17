@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02795da6-b57a-4f81-921b-fad2424619bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="02795da6-b57a-4f81-921b-fad2424619bc" name="Changes" comment="Moved Search action to HelpMenu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demonew/SearchAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demonew/SearchAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
@@ -130,6 +129,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675963630749</updated>
     </task>
+    <task id="LOCAL-00001" summary="Moved Search action to HelpMenu">
+      <created>1676591796652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676591796652</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +149,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Moved Search action to HelpMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved Search action to HelpMenu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
